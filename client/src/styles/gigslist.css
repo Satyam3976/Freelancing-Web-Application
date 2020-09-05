@@ -1,0 +1,60 @@
+.gig-card {
+  margin: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: white;
+}
+
+.gig-card > div > h2 {
+  padding: 10px;
+}
+
+.gig-card > div > p {
+  padding: 0px 10px 10px 10px;
+}
+
+.gig-card > div > h4 {
+  padding: 0px 0px 10px 10px;
+}
+
+.gig-card > a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: #ff9900;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+/* Post Gigs*/
+
+#post-gig-container {
+  margin: 20px;
+  background-color: white;
+}
+
+#post-gig {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 2px 5px 2px rgb(0, 0, 0, 0.5);
+}
+
+#post-gig > h2 {
+  margin-bottom: 10px;
+}
+
+#post-gig > label {
+  padding: 0px 0px 10px 0px;
+}
+
+#post-gig > textarea {
+  margin-bottom: 10px;
+}
+
+#post-gig > input {
+  padding: 5px;
+  margin-bottom: 20px;
+}

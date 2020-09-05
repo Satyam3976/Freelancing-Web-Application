@@ -1,0 +1,155 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 92vh;
+}
+
+header {
+  background: #0f2027; /* fallback for old browsers */
+  width: 100%;
+  background: -webkit-linear-gradient(
+    to top,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header > h1 > a {
+  color: white;
+  text-decoration: none;
+}
+
+.define {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.define > a {
+  margin: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: #ff9900;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+#bkg {
+  position: fixed;
+  bottom: 0px;
+  height: 310px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.form {
+  background: white;
+  box-shadow: 2px 2px 5px 2px rgb(0, 0, 0, 0.4);
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.form {
+  padding: 20px;
+}
+
+#log-in {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.btn {
+  color: white;
+  background: #ff9900;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+  border: none;
+  height: 40px;
+  width: 70px;
+  margin-left: 35%;
+}
+
+#log-in > label {
+  padding-bottom: 10px;
+}
+
+#log-in > input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name > div > input {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#left_hover {
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  background: #ff9900;
+  border-radius: 50%;
+  z-index: +1;
+  box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.8);
+}
+
+#right_hover {
+  position: absolute;
+  bottom: 0px;
+  right: 10%;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  z-index: +1;
+  background: #ff9900;
+  border-radius: 50%;
+  box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.8);
+}
